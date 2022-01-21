@@ -10,7 +10,8 @@
   ],
   "license": "MIT",
   "author": "Aryel Mota Gois",
-  "main": "index.js",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "scripts": {
     "test": "tsc && ts-standard && jest",
     "build": "tsc --project tsconfig.build.json"
