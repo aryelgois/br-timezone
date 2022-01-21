@@ -10,6 +10,11 @@
     "brasil",
     "brazil"
   ],
+  "homepage": "https://github.com/aryelgois/br-timezone#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryelgois/br-timezone.git"
+  },
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "scripts": {
