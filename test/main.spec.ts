@@ -1,6 +1,10 @@
 import { brStates, getBrTimezone } from '~/main'
 
 describe('getBrTimezone', () => {
+  it('does not have duplicated State codes', () => {
+    expect(new Set(brStates).size).toEqual(brStates.length)
+  })
+
   it('has all States mapped', () => {
     expect.assertions(brStates.length)
 
