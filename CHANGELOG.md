@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Missing RN State and duplicated RR State
+- Replace confusing `prepublish` hook with `prepublishOnly`
 - Small typos in README
 
 ## [1.0.1] - 2022-01-21
