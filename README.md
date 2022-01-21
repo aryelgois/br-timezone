@@ -6,7 +6,7 @@ Atualmente o Brasil observa quatro fusos horários<sup>[1]</sup>, mas os seus c�
 
 Esse pacote oferece uma função que retorna um código de fuso horário com base na sigla de um Estado (ou Distrito Federal), e opcionalmente em um [código de município do IBGE][ibge_municipios].
 
-Apenas alguns municípios estão mapeados para um fuso horário, a maioria sendo relacionada à [Lei Nº 12.876, de 30 de Outubro de 2013][lei_12.876_2013], que definiu que alguns municípios ao sudoeste do estado do Amazonas devem seguir o Horário do Acre. Todos os Estados estão mapeados para um fuso horário.
+Apenas alguns municípios estão mapeados para um fuso horário, a maioria sendo relacionada à [Lei Nº 12.876, de 30 de Outubro de 2013][lei_12.876_2013], que definiu que alguns municípios ao sudoeste do Estado do Amazonas devem seguir o Horário do Acre. Todos os Estados estão mapeados para um fuso horário.
 
 **Atenção**: alguns Estados podem estar mapeados para um fuso horário que não é o utilizado na prática. Sugestões de melhorias são bem-vindas!
 
