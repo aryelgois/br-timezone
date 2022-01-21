@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- `prepublish` hook
+- `.npmignore` file
+
+### Changed
+
+- Improve `package.json`
+
 ## [1.0.0] - 2022-01-21
 
 ### Added
