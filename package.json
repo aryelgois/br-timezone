@@ -1,0 +1,26 @@
+{
+  "name": "br-timezone",
+  "version": "1.0.0",
+  "description": "Determine o fuso horário no Brasil de acordo com o Estado ou Cidade",
+  "keywords": [
+    "fuso horário",
+    "timezone",
+    "brasil",
+    "brazil"
+  ],
+  "license": "MIT",
+  "author": "Aryel Mota Gois",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && ts-standard && jest",
+    "build": "tsc --project tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.4.0",
+    "ts-standard": "^11.0.0",
+    "typescript": "^4.5.5"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016",
+
+    /* Modules */
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "types": [
+      "@types/jest"
+    ],
+    "resolveJsonModule": true,
+
+    /* Emit */
+    "sourceMap": true,
+    "noEmit": true,
+
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+
+    /* Completeness */
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"]
+}
