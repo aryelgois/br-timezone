@@ -19,7 +19,8 @@
   "types": "dist/main.d.ts",
   "scripts": {
     "test": "tsc && ts-standard && jest",
-    "build": "tsc --project tsconfig.build.json"
+    "build": "tsc --project tsconfig.build.json",
+    "prepublish": "npm run test && npm run build"
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
