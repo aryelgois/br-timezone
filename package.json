@@ -1,6 +1,6 @@
 {
   "name": "br-timezone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Determine o fuso horário no Brasil de acordo com o Estado ou Cidade",
   "author": "Aryel Mota Gois",
   "license": "MIT",
