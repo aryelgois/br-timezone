@@ -2,7 +2,7 @@
 
 > Determine o fuso horário no Brasil de acordo com o Estado ou Cidade.
 
-Atualmente o Brasil observa quatro fusos horários<sup>[1]</sup>, mas os seus códigos estão obsoletos<sup>[2]</sup><sup>[3]</sup><sup>[4]</sup><sup>[5]</sup>. Existem outros códigos de fusos horários com nomes de localidades específicas, e que são utilizados em suas proximidades.
+Atualmente o Brasil observa quatro fusos horários<sup>[1]</sup>, mas os seus códigos estão obsoletos<sup>[2],</sup><sup>[3],</sup><sup>[4],</sup><sup>[5]</sup>. Existem outros códigos de fusos horários com nomes de localidades específicas, e que são utilizados em suas proximidades.
 
 Esse pacote oferece uma função que retorna um código de fuso horário com base na sigla de um Estado (ou Distrito Federal), e opcionalmente em um [código de município do IBGE][ibge_municipios].
 
