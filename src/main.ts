@@ -1,7 +1,7 @@
 export const brStates = [
   'AC', 'AL', 'AM', 'AP', 'BA', 'CE', 'DF', 'ES', 'GO',
   'MA', 'MG', 'MS', 'MT', 'PA', 'PB', 'PE', 'PI', 'PR',
-  'RJ', 'RO', 'RR', 'RR', 'RS', 'SC', 'SE', 'SP', 'TO'
+  'RJ', 'RN', 'RO', 'RR', 'RS', 'SC', 'SE', 'SP', 'TO'
 ] as const
 
 export type BrState = typeof brStates[number]
@@ -30,7 +30,7 @@ const timezoneByState: Array<[string, BrState[]]> = [
   ['America/Boa_Vista', ['RR']],
   ['America/Campo_Grande', ['MS']],
   ['America/Cuiaba', ['MT']],
-  ['America/Fortaleza', ['CE', 'MA', 'PI', 'RR']],
+  ['America/Fortaleza', ['CE', 'MA', 'PI', 'RN']],
   ['America/Maceio', ['AL', 'SE']],
   ['America/Manaus', ['AM']],
   ['America/Porto_Velho', ['RO']],
